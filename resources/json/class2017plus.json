@@ -1,0 +1,20 @@
+{
+  "sarivera":{
+    "name":"Steven Rivera ",
+    "hometown":"San Antonio,  TX ",
+    "positions":"Junior Executive",
+    "major":"Course 6-3",
+    "year":" M.Eng",
+    "bio":"I play drums, am in DT, and do research on medical data with machine learning",
+    "img_src":"images/brothers/stevenRivera.jpg"
+  },
+  "jsmith2":{
+    "name":"Jordan Smith",
+    "hometown":"Austin, Texas",
+    "positions":"Risk Manager",
+    "major":"Course 20",
+    "year":"2016",
+    "bio":"I play clarinet and the trumpet and I am learning piano (slowly). I can teach you to ski, scuba dive, flyfish, and make homemade greek yogurt.",
+    "img_src":"images/brothers/jordanSmith.jpg"
+  }
+}

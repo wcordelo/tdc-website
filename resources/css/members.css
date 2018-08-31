@@ -1,0 +1,76 @@
+#content-wrapper {
+    background: url(/images/crest20.png) no-repeat;
+    background-size: cover;
+    background-size:50%;
+    background-position: center top;
+}
+/*------------ TDC Members Page ------------*/
+.brothers {
+  width: 1024px;
+  display:block;
+  height:100%;
+  margin: 0 auto;
+}
+.class-title {
+    margin-bottom: 15px;
+    font-family: Copperplate, serif;
+    font-size: 40px;
+    font-variant: normal;
+    font-weight: 500;
+    text-align: center;
+    padding: 5px;
+    text-decoration: underline;
+}
+/* Brother template css */
+.thumbnail {
+  float:left;
+  margin-right: 5px;
+  max-height: 500px;
+  width: 180px;
+  height: 250px;
+}
+.thumbnail:hover{
+  cursor:pointer;
+}
+.name {
+  text-align: center;
+  font-weight: 500;
+}
+.img_src {
+  height:150px;
+  margin:0 auto;
+  width:auto;
+  background-size:contain !important;
+  background-position: center !important;
+}
+.bottom-text {
+  text-align:center;
+  font-weight: 500;
+}
+/* Start modal CSS here! */
+.modal-body{
+  background: url(/images/crest20.png) no-repeat;
+  background-size: cover;
+  background-size:50%;
+  background-position: center top;
+  min-height: 320px;
+  max-height: 400px;
+}
+.modal_img{
+  height:200px !important;
+  float:left;
+  width:auto;
+  box-shadow: 5px 5px 26px rgba(0, 0, 0, 0.7);
+  border:        1px solid #ffffff;
+  border-radius: 5px;
+}
+.wrap-bold{
+  font-weight:bold;
+}
+.modal_data{
+  max-width: 550px;
+  position: relative;
+  top:10px;
+  left: 20px;
+  text-align: justify;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <!-- Set up for website; includes jquery, bootstrap, and include.js -->
+    <meta charset="UTF-8">
+    <title>Theta Delta Chi</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/schedule.css" type="text/css">
+    <link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+    <script src="jquery.min.js"></script>
+    <script src="include.js"></script>
+    <script src="mobileDetection.js"></script>
+    <script src="backfix.js"></script>
+</head>
+<body>
+<div id='header'>
+</div>
+
+<!-- Start page content HERE!!! -->
+<div id='content-wrapper'>
+    <div id="schedule">
+    </div>
+</div>
+<!-- End page content HERE!!! -->
+
+<div id='footer'>
+</div>
+</body>
+
+<!-- Set up html blocks here!!! DO NOT rewrite html!!!-->
+<script>
+    // Create header for website.
+    createBlocks("header","header");
+
+    // Create About Us for website
+    createBlocks("schedule", "schedule");
+
+    // Create footer for website.
+    createBlocks("footer","footer");
+
+    // Mobile browser fix
+  	$(document).ready(function(){
+  		if (mobileAndTabletCheck()) {
+        $("#content-wrapper").css('background-position', 'center');
+  			$("#content-wrapper").css('background-attachment', 'fixed');
+  		}
+  	});
+
+    // Set up any meta-data here.
+    $(function(){
+        $('#navabout').addClass('active');
+    });
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-83598390-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

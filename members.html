@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<!-- Set up for website; includes jquery, bootstrap, and include.js -->
+	<meta charset="UTF-8">
+	<title>Theta Delta Chi</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/members.css" type="text/css">
+	<link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+	<script src="jquery.min.js"></script>
+	<script src="bootstrap.min.js"></script>
+	<script src="include.js"></script>
+	<script src="backfix.js"></script>
+	<script src="mobileDetection.js"></script>
+</head>
+<body>
+	<div id='header'>
+	</div>
+
+	<!-- Start page content HERE!!! -->
+	<div id='content-wrapper'>
+  <div id='members'/>
+	</div>
+	<!-- End page content HERE!!! -->
+
+	<div id='footer'>
+	</div>
+</body>
+
+<!-- Set up html blocks here!!! DO NOT rewrite html!!!-->
+<script>
+	// Create header for website.
+	createBlocks("header","header");
+
+	// Create footer for website.
+	createBlocks("footer","footer");
+
+  // Create Brother content
+	createBlocks("members","members");
+
+	// Set up any meta-data here.
+	$('#navhome').addClass('active');
+</script>
+</html>

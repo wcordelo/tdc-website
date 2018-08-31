@@ -1,0 +1,74 @@
+{
+  "dscota":{
+    "name":"Dencil Wilmot",
+    "hometown":"Brooklyn, New York",
+    "positions":"Treasurer",
+    "major":"Couse 6-3",
+    "year":"Class of 2018",
+    "bio":"Classically trained in trumpet, learning piano.\nDon't take myself too seriously.\nEnjoys beaches (but not going in the water).",
+    "img_src":"images/brothers/dencilWilmot.jpg"
+  },
+  "roflores":{
+    "name":"Romeo Flores ",
+    "hometown":"Brownsville, TX",
+    "positions":"Vice-President",
+    "major":"10",
+    "year":"2018",
+    "bio":"Romeo is a Chemical Engineering major and Economics minor with an interest in  the exciting new field of Behavioral Economics. He is MIT's DJ, having performed at over thirty MIT student group events and countless TDC parties. His research on block co-polymer and protein science was published by the Royal Society of Chemistry. He is the Director of Operations of MIT's Latino Cultural Center and the Senior Executive at TDC.",
+    "img_src":"images/brothers/romeoFlores.jpg"
+  },
+  "Will96":{
+    "name":"William Lopez-Cordero",
+    "hometown":"Los Angeles, CA",
+    "positions":"Rush Chair, Alumni Relations Chair",
+    "major":"16-Aerospace Engineering",
+    "year":"2018",
+    "bio":"William Lopez-Cordero is passionate about math, science, and education. He has done research with the NASA REXIS instrument as part of the OSIRIS-REX mission. During his free time, he loves to paint murals and run across the esplanade. ",
+    "img_src":"images/brothers/williamLopezCordero.jpg"
+  },
+  "kevinaer":{
+    "name":"Kevin Escobar Rodriguez",
+    "hometown":"Los Angeles, CA",
+    "positions":"President",
+    "major":"6-3",
+    "year":"2018",
+    "bio":"I am the current President of Theta Delta Chi. My interests include cooking, going to places to eat, and eating dessert. So as you can tell food is a big portion of my life. Other things I love doing are exploring cities, creating games, watching shows like Bojack Horseman and Rick and Morty. Overall a quirky but fun guy!",
+    "img_src":"images/brothers/kevinEscobarRodriguez.jpg"
+  },
+  "reycano":{
+    "name":"Reymundo Cano",
+    "hometown":"North Hollywood, California",
+    "positions":"Netgeek, Librarian, Social Chair",
+    "major":"Course 6-3",
+    "year":"2018",
+    "bio":"I am from the City of Angels and love In n' Out (kudos to you if you know what that is).\nAside from food and Comp Sci, my interests include music, math, and finance--so, stop by TDC to talk about any of these things (or anything else for that matter)!\nI have also interned at Google in Seattle and Mountain View, so we can talk about coffee and Silicon Valley if you're into that stuff!",
+    "img_src":"images/brothers/reymundoCano.jpg"
+  },
+  "emanuelp":{
+    "name":"Emanuel Perez",
+    "hometown":"Chicago, IL ",
+    "positions":"NONE",
+    "major":"Course 6",
+    "year":"2018",
+    "bio":"FIFA, soccer, sleeping, Mexico, Catholic, currently watching house, Toolbox ",
+    "img_src":"images/brothers/emanuel_perez.jpg"
+  },
+  "jmend":{
+    "name":"Julian Mendoza",
+    "hometown":"Milky Way Galaxy",
+    "positions":"N/A",
+    "major":"Course 6-2",
+    "year":"2018",
+    "bio":"I am Julian, hear me roar",
+    "img_src":"images/brothers/julian_mendoza.jpg"
+  },
+  "weixunhe":{
+    "name":"Wei Xun He",
+    "hometown":"NYC, China",
+    "positions":"Makerspace Chair",
+    "major":"2, minor in design and entrepreneurship",
+    "year":"2018",
+    "bio":"Wei Xun is a baller who loves to ball, watch ball, and talk about balls. He's explore several continents of the world and hopes to finish all continents before the end of college.  He is the Supreme Baller at TDC.",
+    "img_src":"images/brothers/weixunHe.jpg"
+  }
+}

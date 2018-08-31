@@ -1,0 +1,55 @@
+<!-- This is the header for the Website
+TODO(reycano or will96): make the header look better -->
+<div class="clearfix">
+	<div class="logo">
+		<a href="/"><img src="images/crest_logo.png" alt="LOGO" class="crest"></a>
+	</div>
+
+	<ul class="navigation">
+		<a class="navigationButton" href="/">Home</a>
+		<a class="navigationButton" href="schedule">Rush</a>
+		<a class="navigationButton" href="members">Brothers</a>
+		<a class="navigationButton" href="alumni">Alumni</a>
+		<a class="navigationButton" href="about">About Us</a>
+	</ul>
+
+	<span class="menuButton">
+		<img src="images/icon.svg" class="icon">
+	</span>
+
+</div>
+<div class="mobileNavigation">
+	<nav class="navigationList">
+		<ul class="mobileList">
+			<li><a class="mobileNavigationButton" href="/">Home</a></li>
+			<li><a class="mobileNavigationButton" href="about">About Us</a></li>
+			<li><a class="mobileNavigationButton" href="members">Brothers</a></li>
+			<li><a class="mobileNavigationButton" href="schedule">Rush</a></li>
+			<li><a class="mobileNavigationButton" href="alumni">Alumni</a></li>
+		</ul>
+	</nav>
+</div>
+
+<script>
+	$(document).ready(function(){
+		if (mobileAndTabletCheck()) {
+			// hide desktop navigation buttons
+			$(".navigation").hide();
+			// hide the menu when the page load
+			$(".navigationList").hide();
+			// when .icon is clicked, show the .navigationList
+			$(".icon").click(function() {
+				// open .navigationList if .icon is clicked on
+				$(".navigationList").slideToggle(300);
+			});
+			$("#content-wrapper").click(function() {
+				// close .navigationList is outside is clicked
+				$(".navigationList").hide();
+			});
+		} else {
+			// hide .navigation menu and mobile menu button
+			$(".menuButton").hide();
+			$(".navigationList").hide();
+		}
+	});
+</script>

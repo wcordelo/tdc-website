@@ -1,0 +1,32 @@
+<!-- Footer for website, includes "contact" section with social media buttons -->
+<div id="footnote">
+	<div class="footnoteDiv">
+		<div class="connect">
+			<a href="https://facebook.com/mittdc">
+				<img class="socialmedia" src="images/facebook.png">
+			</a>
+			<span class="footnoteText">
+				The Mission of Theta Delta Chi Fraternity at MIT is to improve the Intellectual, Moral, and Social Being
+				of Brotherhood through Friendship.
+			</span>
+		</div>
+		<div class="connect">
+			<a href="https://twitter.com/tdc">
+				<img class="socialmedia" src="images/twitter.png">
+			</a>
+			<span class="footnoteText">
+				© 2016 Massachusetts Institute of Technology Theta Delta Chi Fraternity |
+ 			</span>
+			<span class="footnoteText">
+				372 Memorial Drive, Memorial Drive Cambridge MA 02139
+			</span>
+		</div>
+	</div>
+	<script>
+		$(document).ready(function(){
+			if (mobileCheck()) {
+				$(".footnoteText").css("fontSize", "13px");
+			}
+		});
+	</script>
+</div>

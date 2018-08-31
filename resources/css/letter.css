@@ -1,0 +1,114 @@
+#content-wrapper {
+    background: url(../images/crest20.png) no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-size:85%;
+    background-position: center;
+}
+/*-------------LETTER--------------*/
+#letterContainer {
+    display: block;
+    padding: 6px 9px;
+    width: 1024px;
+    margin: 0 auto;
+}
+#letterContainer .imgShadow {
+    height: 500px;
+    width: auto;
+    box-shadow: 5px 5px 26px rgba(0, 0, 0, 0.7);
+    border:        2px solid #f3f3f3;
+    border-radius: 5px;
+    padding:       3px;
+}
+#letterContainer .presContainer {
+    padding: 20px;
+}
+#letterContainer .presRow {
+    padding-left: 25px;
+    width: 1024px;
+}
+#letterContainer .presName {
+    width: 500px;
+    margin: 0 auto;
+}
+#letterContainer .nameText {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 10px;
+
+}
+#letterContainer .presInfo {
+    height:270px;
+    width:70%;
+    resize: both;
+}
+#letterContainer .presImage {
+    width: 50px;
+    height: 100px;
+}
+#letterContainer .presIntro {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 45px;
+    font-style: oblique;
+    font-variant: normal;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 22px;
+    padding-bottom: 25px;
+}
+#letterContainer .fratIntro {
+    font-family: Copperplate, serif;
+    font-size: 40px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: inherit;
+}
+#letterContainer .fratText {
+    font-family: Florence, cursive;
+    font-size: 25px;
+    font-style: oblique;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    padding-top: 15px;
+    margin: 0 auto;
+    width: 400px;
+}
+#letterContainer .letter {
+    padding-top: 10px;
+    padding-right: 50px;
+}
+#letterContainer .letterText {
+    line-height: 2;
+    width:900px;
+    font-family: Verdana;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: inherit;
+    text-indent: 30px;
+    color: rgb(34, 34, 34);
+    text-align: justify;
+    margin: 0 auto;
+}
+#letterContainer .letterEnd {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    padding-top: 20px;
+    font-size: 18px;
+    font-style: oblique;
+    line-height: 1.7;
+    font-weight: bold;
+    text-align: left;
+    height:185px;
+}
+#letterContainer .endTextTwo {
+    text-indent: 10px;
+}
+#letterContainer .endTextThree {
+    text-indent: 10px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <!-- Set up for website; includes jquery, bootstrap, and include.js -->
+    <meta charset="UTF-8">
+    <title>Theta Delta Chi</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/alumni.css" type="text/css">
+    <link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+    <script src="jquery.min.js"></script>
+    <script src="include.js"></script>
+    <script src="mobileDetection.js"></script>
+    <script src="backfix.js"></script>
+</head>
+<body>
+<div id='header'>
+</div>
+
+<!-- Start page content HERE!!! -->
+<div id='content-wrapper'>
+  <div id="alumni">
+  </div>
+</div>
+<!-- End page content HERE!!! -->
+
+<div id='footer'>
+</div>
+</body>
+
+<!-- Set up html blocks here!!! DO NOT rewrite html!!!-->
+<script>
+    // Create header for website.
+    createBlocks("header","header");
+
+    // Create About Us for website
+    createBlocks("alumni", "alumni");
+
+    // Create footer for website.
+    createBlocks("footer","footer");
+
+    $(document).ready(function(){
+  		if (mobileCheck()) {
+        $("#content-wrapper").css('background-position', 'center');
+  			$("#content-wrapper").css('background-attachment', 'fixed');
+  		}
+  	});
+
+    // Set up any meta-data here.
+    $(function(){
+        $('#navabout').addClass('active');
+    });
+</script>
+</html>

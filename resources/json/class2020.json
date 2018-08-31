@@ -1,0 +1,56 @@
+{
+  "mlibos":{
+    "name":"Munir Libos",
+    "hometown":"Miami",
+    "positions":"Athletic Chair",
+    "major":"7- Biology",
+    "year":"2020",
+    "bio":"If you wanna climb or toss disc hit me up!",
+    "img_src":"images/brothers/munir.jpg"
+  },
+  "Alegonz":{
+    "name":"Alejandro",
+    "hometown":"Denver",
+    "positions":"Social Chair, Recording secretary",
+    "major":"10-B; Biochemical Engineering",
+    "year":"2020",
+    "bio":"Hey! I am Alejandro from Denver, Colorado. I am a pretty chill guy; love music, running, and the drums. I am also interested in Renewable Energy.",
+    "img_src":"images/brothers/alejandro.jpg"
+  },
+  "juangelo":{
+    "name":"Juan Ferrua",
+    "hometown":"Santo Domingo, Dominican Rep.",
+    "positions":"same",
+    "major":"8 or 6",
+    "year":"2020",
+    "bio":"7.012",
+    "img_src":"images/brothers/Juan.jpg"
+  },
+  "robgauna":{
+    "name":"Robbie",
+    "hometown":"Pharr",
+    "positions":"JSChamp",
+    "major":"6-8",
+    "year":"2020 (Tentatively)",
+    "bio":"Not sure how I got here, just going along for the ride",
+    "img_src":"images/brothers/robbieGuana.jpg"
+  },
+  "kbeuchot":{
+    "name":"Kevin Beuchot",
+    "hometown":"Monterrey",
+    "positions":"N/A",
+    "major":"18",
+    "year":"2020",
+    "bio":"I am a Course 18 major from Monterrey, Mexico. I had interest in math from participating in Math olympiads where I have competed since I was 12. I went for the Mexican IMO team 4 times, earning one Bronze and three Silver medals. I'm currently interested in Number Theory.",
+    "img_src":"images/brothers/kevin_b.jpg"
+  },
+  "jesush25":{
+    "name":"Jesus Herrera",
+    "hometown":"Los Angeles",
+    "positions":"Academic Chair/Steward",
+    "major":"8",
+    "year":"2020",
+    "bio":"So what do you get if you cross gaming across multiple platforms (PC primarily), the extremeness of a metalhead, the love for anime and manga, and a gun maniac? Well you get this man right here. In addition to being a Physics Major, I'm also part of the Varsity Rifle Team and can cook some damn good food. I've built my own gaming PC and have a decent metal vinyl collection going on, but enough blabbering on cause text can't do all the work. You'll just have to meet me in person to fully understand.",
+    "img_src":"images/brothers/jesus.jpg"
+  }
+}

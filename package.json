@@ -1,0 +1,16 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Website for Theta Delta Chi",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Reymundo Cano and William Lopez-Cordero",
+  "license": "MIT",
+  "dependencies":{
+    "express":"*",
+    "socket.io":"*",
+    "serve-favicon":"*"
+  }
+}

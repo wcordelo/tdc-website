@@ -1,0 +1,171 @@
+body {
+    background-color: #e2e2e2;
+    min-width: 1024px;
+    margin: 0;
+}
+#header {
+    background: #000000 url(../images/bg-header.jpg) repeat-x left bottom;
+    padding: 40px 0 46px;
+}
+/*------------ Sprites ------------*/
+#footnote .connect a {
+    background: url(../images/icons.png) no-repeat;
+}
+/*------------ HEADER ------------*/
+.clearfix {
+    width: 1024px;
+    margin: 0 auto;
+}
+.clearfix .logo {
+    float: left;
+    display: inline-block;
+}
+.clearfix .crest {
+    width:300px;
+}
+/** navigation **/
+.clearfix .navigation {
+    float: right;
+    list-style: none;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+.clearfix .navigation a {
+    cursor: pointer;
+    display: inline-block;
+    min-height: 1em;
+    outline: none;
+    border: none;
+    vertical-align: baseline;
+    font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    padding: 0.78571429em 1.5em 0.78571429em;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: bold;
+    line-height: 1em;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+    transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+    will-change: '';
+    -webkit-tap-highlight-color: transparent;
+}
+.clearfix .navigationButton {
+    background-color: transparent;
+    box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
+    color: #FFFFFF !important;
+}
+.clearfix .navigationButton:hover {
+    box-shadow: 0px 0px 0px 2px #1E90FF inset !important;
+    color: #1E90FF !important;
+}
+
+/*------------ Mobile Button Start ------------*/
+.clearfix .menuButton {
+    display: block;
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-right: 55px;
+    cursor: pointer;
+}
+.clearfix .menuButton:hover {
+    opacity: 0.7;
+}
+.clearfix .icon {
+    height: 50px;
+}
+.mobileNavigation {
+    background-color: black;
+    vertical-align: middle;
+    color: white;
+    letter-spacing: 2px;
+    float: right;
+}
+.mobileNavigation .mobileList {
+    width:500px;
+    height:500px;
+    text-align: center;
+    list-style-type: none;
+    padding-top:20px;
+    position: absolute;
+    left: -500px;
+    top: 100%;
+}
+.mobileNavigation .navigationList {
+    position: relative;
+}
+.mobileNavigation .mobileList {
+    background-color: rgba(0, 0, 0, 0.90);
+}
+.mobileNavigation .mobileNavigationButton {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    min-height: 1em;
+    outline: none;
+    border: none;
+    vertical-align: baseline;
+    font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin: 0em 0.25em 0em 0em;
+    padding: 0.78571429em 1.5em 0.78571429em;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: bold;
+    line-height: 1em;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    will-change: '';
+    -webkit-tap-highlight-color: transparent;
+}
+.mobileNavigation .mobileNavigationButton:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: grey;
+    text-decoration: none;
+}
+/*------------ Mobile Button End ------------*/
+
+/*------------ FOOTER ------------*/
+#footnote {
+    background: url(../images/bgfootnote.jpg) repeat-x left top;
+    border-top: 1px solid #fff;
+    padding: 6px 0 15px;
+}
+#footnote .footnoteDiv {
+    width: 1024px;
+    height: 100%;
+    margin: 3px auto 0;
+}
+#footnote .connect {
+    display: inline-block;
+    margin: 0 10px 0 20px;
+    padding: 6px 0;
+}
+#footnote .socialmedia {
+    width: 30px;
+    height: 30px;
+}
+#footnote .connect a {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
+}
+#footnote .footnoteText {
+    color: #ffffff;
+    font-size: 12px;
+}

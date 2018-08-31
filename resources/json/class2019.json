@@ -1,0 +1,56 @@
+{
+  "micarr":{
+    "name":"Michael Arrington",
+    "hometown":"Schuylkill Haven, Pennsylvania",
+    "positions":"Entertainment Chair",
+    "major":"Course 6-3",
+    "year":"2019",
+    "bio":"I'm a nice guy, I eat fries.  Or just any food in general.  Point is, I like food.  And I also play pool, so if you do as well, come find me.  The pool table in Theta Delta Chi needs some more use!  I hope the last week of orientation and REX has been exciting. Can't wait meet you at our Rush events!  Hope you have fun!",
+    "img_src":"images/brothers/michaelArrington.jpg"
+  },
+  "rafid":{
+    "name":"Rafid Mollah",
+    "hometown":"Galloway",
+    "positions":"Brotherhood Chair, House Manager",
+    "major":"Course 10, Course 2",
+    "year":"2019",
+    "bio":"Hey, I'm Rafid, a 2019 course 10 major, minoring in 2 and also working on earning my teaching credentials during my undergrad. I'm currently the Brotherhood Chair of TDC, and was previously House Manager during my Freshman Spring and Sophomore Fall. TDC is a community I am happy to have joined back during Freshman Fall, and is single handedly the best decision I made my Freshman year at MIT. \nI'm super interested in energy and energy storage research/work. Outside of school I enjoy working out, gaming - I've recently built my own PC which is sweeeeet, Djing, and playing pool.",
+    "img_src":"images/brothers/rafidMollah.jpg"
+  },
+  "fidel1":{
+    "name":"Fidel Cano Renteria",
+    "hometown":"Bogota, Colombia",
+    "positions":"Sargeant-At-Arms; Risk Manager",
+    "major":"Course 2",
+    "year":"2019",
+    "bio":"I play guitar, record and wrtie music, bike, and enjoy traveling. ",
+    "img_src":"images/brothers/fidelCano.jpg"
+  },
+  "rosarioa":{
+    "name":"Anthony Rosario",
+    "hometown":"Newark, New Jersey",
+    "positions":"Spring: Social Chair, Steward",
+    "major":"Course 6-3",
+    "year":"2019",
+    "bio":"Y'all think this meeting is for me. No. No, this meeting is not for me. It's for y'all. See, see, I'm gonna be alright. I'm straight. I got villas in Brazil, Tahiti, East Hampton, Westhampton. Sergio gonna be fine! Fuck a recession. I own 20 Koo Koo Roos. (Twenty-one, sir.) I own 21 Koo Koo Roos. Y'all don't own one Koo Koo Roo. Not one. Not one. Y'all are fucked. Everyone loves chicken. I'm doing fine. Please, people, help me help you. Y'all need to come up with some brilliant ideas right now… I got six fucking kids! You know how much money that is to put them through school? You know how many Air Jordans six black kids wear?",
+    "img_src":"images/brothers/anthonyRosario.jpg"
+  },
+  "ragarcia":{
+    "name":"René Andrés García Franceschini",
+    "hometown":"Ponce, PR",
+    "positions":"Senior House Manager, Risk Manager",
+    "major":"Civil and Environmental Engineering",
+    "year":"2019",
+    "bio":"René is a junior majoring in Civil and Environmental Engineering, with a focus on Systems and Statistics. He is interested in urban networks, social justice, movies and video games. He served as House Manager in 2016-2017, and will serve as Rush Chair in 2017-2018.",
+    "img_src":"images/brothers/reneGarcia.jpg"
+  },
+  "fcdewolf":{
+    "name":"F. Colt DeWolf IV",
+    "hometown":"Washington DC",
+    "positions":"none",
+    "major":"Course 15",
+    "year":"2019",
+    "bio":"I was born in Washington and moved to Florida just before high school. I'm a rising sophomore and a Business major. I'm on the crew team and I won gold at Youth Nationals in high school.\nJoining ΘΔΧ was one of the best decisions I've made in my time at MIT.",
+    "img_src":"images/brothers/FColtDeWolfIV.jpg"
+  }
+}

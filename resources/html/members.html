@@ -1,0 +1,46 @@
+<!-- Class 2020 -->
+<div class="class-title">
+  Class of 2020
+</div>
+<div id='class2020' class='brothers'>
+</div>
+<div style="clear: both;"></div>
+
+<!-- Class 2019 -->
+<div class="class-title">
+  Class of 2019
+</div>
+<div id='class2019' class='brothers'>
+</div>
+<div style="clear: both;"></div>
+
+<!-- Class 2018 -->
+<div class="class-title">
+  Class of 2018
+</div>
+<div id='class2018' class='brothers'>
+</div>
+<div style="clear: both;"></div>
+
+<!-- Class 2017+ -->
+<div class="class-title">
+  Class of 2017 and Beyond
+</div>
+<div id='class2017plus' class='brothers'>
+</div>
+<div style="clear: both;"></div>
+
+<script>
+  loadJSON('class2020','templates/member','class2020')
+  loadJSON('class2019','templates/member','class2019')
+  loadJSON('class2018','templates/member','class2018')
+  loadJSON('class2017plus','templates/member','class2017plus')
+	var modal = function(div){
+    var current_name = $(div).children().filter('.name').text();
+    current_name = current_name.replace(/ /g, '');
+    if (current_name == 'F.ColtDeWolfIV'){
+      current_name = 'colt'
+    }
+    $('#'+current_name).modal();
+  };
+</script>
